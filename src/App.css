@@ -1,0 +1,175 @@
+/* ---------------------------------- Commun Styles ---------------------------------- */
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: black;
+}
+
+.section {
+  color: white;
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  padding: 7%;
+  height: 80vh;
+}
+
+.item1 {
+  width: 60%;
+}
+
+.item2 {
+  width: 40%;
+}
+
+.my-name {
+  background: -webkit-linear-gradient(left, #fc03c6, #6b03fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.my-img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+/* ---------------------------------- Navigation Styles ---------------------------------- */
+
+.header {
+  height: 10vh;
+}
+
+/* ---------------------------------- Intro Styles ---------------------------------- */
+
+.description {
+  font-size: 20px;
+}
+
+/* ---------------------------------- Courses Styles ---------------------------------- */
+
+.courses-section {
+  height: 90vh;
+  width: 100%;
+}
+
+.course-container {
+  display: flex;
+  height: 60vh;
+  text-align: left;
+}
+
+.course-provider {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.course-description {
+  font-size: 20px;
+}
+
+/* ---------------------------------- Skills Styles ---------------------------------- */
+
+.skill-head {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.skill-container {
+  gap: 80px;
+  padding-top: 4%;
+}
+
+.skill-group {
+  height: 55vh;
+  width: 25vw;
+  background-color: #141212;
+  border-radius: 5px;
+}
+
+.skill-name {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 10vh;
+}
+
+.skill-item {
+  font-size: 20px;
+}
+
+/* ---------------------------------- Experience Styles ---------------------------------- */
+
+.experience-item {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+/* ---------------------------------- Contact Styles ---------------------------------- */
+
+.contact-section {
+  height: 40vh;
+  width: 100%;
+  color: white;
+  padding: 2%;
+  padding-left: 13%;
+}
+
+.contact-container {
+  display: flex;
+  gap: 20%;
+  padding-left: 10%;
+}
+
+.contact-info {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.contact-item2 {
+  align-items: center;
+}
+
+.contact-email {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+/* ---------------------------------- Footer Styles ---------------------------------- */
+
+.footer-section {
+  height: 6vh;
+  width: 100%;
+  display: flex;
+}
+
+.footer-name {
+  text-transform: uppercase;
+  transform: translateY(30%);
+  margin-left: 20px;
+}
+
+.footer-icon {
+  /* color: white; */
+  transform: translateY(38%);
+  margin-left: 20px;
+}
+
+.footer-copyright {
+  /* color: white; */
+  transform: translateY(40%);
+  margin-left: 5px;
+}
