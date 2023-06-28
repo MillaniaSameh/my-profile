@@ -1,0 +1,158 @@
+.course-container {
+  display: flex !important;
+  height: 70vh;
+  text-align: left;
+  width: 100%;
+  padding: 2%;
+}
+
+.course-item1 {
+  width: 60%;
+  margin: auto;
+}
+
+.course-item2 {
+  width: 40%;
+}
+
+.course-name {
+  font-size: 2.5rem;
+}
+
+.course-provider {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.course-description {
+  font-size: 20px;
+}
+
+.course-description-item {
+  font-size: 20px;
+}
+
+/* ------------------------------- Mobile Styles ------------------------------- */
+
+@media screen and (max-width: 800px) {
+  .course-container {
+    display: block !important;
+  }
+
+  .course-item1 {
+    width: 100%;
+  }
+
+  .course-item2 {
+    display: none;
+  }
+
+  .course-name {
+    font-size: 1.5rem;
+  }
+
+  .course-provider {
+    font-size: 1.2rem;
+  }
+
+  .course-description {
+    font-size: 15px;
+  }
+
+  .course-description-item {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-height: 750px) and (max-width: 800px) {
+  .course-name {
+    font-size: 2rem;
+  }
+
+  .course-provider {
+    font-size: 1.5rem;
+  }
+
+  .course-description {
+    font-size: 18px;
+  }
+
+  .course-description-item {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-height: 1000px) and (max-height: 1400px) {
+  .course-container {
+    display: block !important;
+  }
+
+  .course-item1 {
+    width: 100%;
+  }
+
+  .course-item2 {
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+
+  .course-name {
+    font-size: 2rem;
+  }
+
+  .course-provider {
+    font-size: 1.5rem;
+  }
+
+  .course-description {
+    font-size: 20px;
+  }
+
+  .course-description-item {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Nest Hub */
+@media screen and (height: 600px) and (width: 1024px) {
+  .course-name {
+    font-size: 2rem;
+  }
+
+  .course-provider {
+    font-size: 1.5rem;
+  }
+
+  .course-description {
+    font-size: 18px;
+  }
+
+  .course-description-item {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+  .course-name {
+    font-size: 1.2rem;
+  }
+
+  .course-provider {
+    font-size: 1rem;
+  }
+
+  .course-description {
+    font-size: 12px;
+  }
+
+  .course-description-item {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+}

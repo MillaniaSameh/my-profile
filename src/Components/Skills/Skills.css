@@ -1,0 +1,154 @@
+.skill-head {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.skill-container {
+  display: flex;
+  padding: 7%;
+  padding-top: 4%;
+  height: 80vh;
+  gap: 60px;
+}
+
+.skill-card {
+  height: 55vh;
+  width: 30vw;
+  /* background-color: #141212; */
+  background-color: #101117;
+  border-radius: 5px;
+}
+
+.skill-name {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 10vh;
+}
+
+.skill-item {
+  font-size: 20px;
+}
+
+/* ------------------------------- Mobile Styles ------------------------------- */
+
+@media screen and (max-width: 750px) {
+  .skill-head {
+    font-size: 1.5rem;
+    padding: 2%;
+  }
+
+  .skill-container {
+    gap: 0px;
+    padding: 3%;
+    padding-top: 15%;
+  }
+
+  .skill-card {
+    height: 40vh;
+    width: 40vw;
+    border-radius: 0px;
+  }
+
+  .skill-card ul {
+    padding-left: 1.5rem;
+  }
+
+  .skill-name {
+    display: none;
+  }
+
+  .skill-item {
+    font-size: 18px;
+  }
+}
+
+/* Tall Mobiles */
+@media screen and (min-height: 750px) and (max-width: 750px) {
+  .skill-head {
+    font-size: 2rem;
+  }
+
+  .skill-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 5%;
+  }
+
+  .skill-card {
+    height: 28vh;
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+
+  .card-3 {
+    margin-top: -100px;
+  }
+}
+
+/* iPads */
+@media screen and (min-height: 1000px) and (max-height: 1400px) {
+  .skill-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 10%;
+  }
+
+  .skill-card {
+    height: 35vh;
+    width: 32vw;
+  }
+
+  .skill-name {
+    font-size: 1.5rem;
+    height: 6vh;
+  }
+
+  .card-3 {
+    height: 30vh;
+  }
+}
+
+/* Nest Hub */
+@media screen and (height: 600px) and (width: 1024px) {
+  .skill-card {
+    height: 60vh;
+  }
+
+  .skill-name {
+    font-size: 1.5rem;
+  }
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+  .skill-head {
+    font-size: 1.3rem;
+  }
+
+  .skill-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8%;
+    gap: 10px;
+  }
+
+  .skill-card {
+    padding-top: 2%;
+    height: 32vh;
+    width: 40vw;
+  }
+
+  .card-3 {
+    width: 65vw;
+    height: 25vh;
+    margin-top: -70px;
+  }
+
+  .skill-item {
+    font-size: 15px;
+  }
+}

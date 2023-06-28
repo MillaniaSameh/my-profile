@@ -1,0 +1,42 @@
+.project-name {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.project-tech {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.project-description {
+  font-size: 18px;
+  margin-bottom: 0.7rem;
+}
+
+.custom-card {
+  background-color: #101117;
+  width: 35vw !important;
+  height: 65vh;
+
+  padding: 2% 5%;
+
+  margin-left: 6%;
+  margin-right: 10%;
+
+  /* background-color: #141212; */
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .custom-card {
+    width: 35vw !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .custom-card {
+    width: 63vw !important;
+  }
+}

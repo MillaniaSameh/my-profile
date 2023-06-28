@@ -1,0 +1,162 @@
+.experience-container {
+  display: flex !important;
+  height: 70vh;
+  text-align: left;
+  width: 100%;
+  padding: 2%;
+}
+
+.experience-item1 {
+  width: 60%;
+  margin: auto;
+  /* border: 1px solid greenyellow; */
+}
+
+.experience-item2 {
+  width: 40%;
+  /* border: 1px solid greenyellow; */
+}
+
+.experience-name {
+  font-size: 2.5rem;
+}
+
+.experience-provider {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.experience-description {
+  font-size: 20px;
+}
+
+.experience-item {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.provider-logo {
+  width: 90%;
+}
+
+.from-to {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------- Mobile Styles ------------------------------- */
+
+@media screen and (max-width: 800px) {
+  .experience-container {
+    display: block !important;
+    margin-top: -10px;
+  }
+
+  .experience-item1 {
+    width: 100%;
+  }
+
+  .experience-item2 {
+    display: none;
+  }
+
+  .experience-name {
+    font-size: 1.5rem;
+  }
+
+  .experience-provider {
+    font-size: 1.2rem;
+  }
+
+  .experience-description {
+    font-size: 15px;
+  }
+
+  .experience-item {
+    font-size: 15px;
+  }
+}
+
+/* Tall Mobiles */
+@media screen and (min-height: 750px) and (max-width: 800px) {
+  .experience-name {
+    font-size: 2rem;
+  }
+
+  .experience-provider {
+    font-size: 1.5rem;
+  }
+
+  .experience-description {
+    font-size: 18px;
+  }
+}
+
+/* iPads */
+@media screen and (min-height: 1000px) and (max-height: 1400px) {
+  .experience-container {
+    display: block !important;
+  }
+
+  .experience-item1 {
+    width: 100%;
+  }
+
+  .experience-item2 {
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+
+  .experience-name {
+    font-size: 2rem;
+  }
+
+  .experience-provider {
+    font-size: 1.5rem;
+  }
+
+  .experience-description {
+    font-size: 20px;
+  }
+
+  .provider-logo {
+    width: 70%;
+  }
+}
+
+/* Nest Hub */
+@media screen and (height: 600px) and (width: 1024px) {
+  .experience-name {
+    font-size: 2rem;
+  }
+
+  .experience-provider {
+    font-size: 1.5rem;
+  }
+
+  .experience-description {
+    font-size: 18px;
+  }
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+  .experience-name {
+    font-size: 1.2rem;
+  }
+
+  .experience-provider {
+    font-size: 1rem;
+  }
+
+  .experience-description {
+    font-size: 15px;
+  }
+
+  .from-to {
+    display: none;
+  }
+}

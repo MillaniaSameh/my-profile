@@ -4,11 +4,11 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import "./App.css";
 import Navigation from "./Components/Navigation";
-import Intro from "./Components/Intro";
-import Courses from "./Components/Courses";
-import Skills from "./Components/Skills";
-import Experience from "./Components/Experience";
-import Projects from "./Components/Projects";
+import Intro from "./Components/Intro/Intro";
+import Courses from "./Components/Courses/Courses";
+import Skills from "./Components/Skills/Skills";
+import Experience from "./Components/Experience/Experience";
+import Projects from "./Components/Projects/Projects";
 import ContactMe from "./Components/ContactMe";
 import Footer from "./Components/Footer";
 
@@ -19,6 +19,21 @@ function App() {
   const experience = useRef(null);
   const projects = useRef(null);
   const contactme = useRef(null);
+
+  const min_pages = [
+    {
+      name: "About me",
+      ref: intro,
+    },
+    {
+      name: "Experience",
+      ref: experience,
+    },
+    {
+      name: "Contact Me",
+      ref: contactme,
+    },
+  ];
 
   const pages = [
     {
@@ -49,7 +64,7 @@ function App() {
 
   return (
     <div>
-      <Navigation pages={pages} />
+      <Navigation pages={pages} min_pages={min_pages} />
       <Intro refname={intro} />
       <Courses refname={courses} />
       <Skills refname={skills} />

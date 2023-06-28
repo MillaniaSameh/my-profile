@@ -1,27 +1,27 @@
-import "../App.css";
+import "./Skills.css";
 
 function Skills(props) {
   return (
     <div ref={props.refname} className="section">
-      <div className="skill-head">
-        <h1>
+      <div>
+        <h1 className="skill-head">
           <span className="my-name">Skills Set</span> I have acquired through my
           education
         </h1>
       </div>
-      <div className="container skill-container">
-        <div className="skill-group">
+      <div className="skill-container">
+        <div className="skill-card">
           <h1 className="skill-name">Web Developement Skills</h1>
           <ul style={{ listStyleType: "circle" }}>
             <li className="skill-item">HTML, CSS</li>
             <li className="skill-item">React JS</li>
             <li className="skill-item">Angular</li>
-            <li className="skill-item">Material UI, Bootstrap</li>
+            <li className="skill-item">Material UI</li>
+            <li className="skill-item">Bootstrap</li>
             <li className="skill-item">Node JS</li>
-            <li className="skill-item">MongoBD</li>
           </ul>
         </div>
-        <div className="skill-group">
+        <div className="skill-card">
           <h1 className="skill-name">Programming Skills</h1>
           <ul style={{ listStyleType: "circle" }}>
             <li className="skill-item">C++</li>
@@ -34,7 +34,7 @@ function Skills(props) {
             <li className="skill-item">MATLAB</li>
           </ul>
         </div>
-        <div className="skill-group">
+        <div className="skill-card card-3">
           <h1 className="skill-name">Other Skills</h1>
           <ul style={{ listStyleType: "circle" }}>
             <li className="skill-item">Arabic</li>

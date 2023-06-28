@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.custom-slider {
+  width: 80vw;
+  height: 75vh;
+  /* border: 1px solid green; */
+  /* margin: 10%; */
+  /* margin-top: 20vh; */
+  position: relative;
+  top: 50px;
+  /* left: auto; */
+  margin: auto;
+}
