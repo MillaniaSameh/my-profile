@@ -104,9 +104,9 @@ const carouselItems = [
 
     <div className="course-item2">
       <img
-        src="https://www.fsociety.gr/wp-content/uploads/2017/11/Data-Analyst.png"
+        src="https://static.vecteezy.com/system/resources/previews/009/872/358/original/analytics-icon-logo-illustration-data-analysis-symbol-template-for-graphic-and-web-design-collection-free-vector.jpg"
         alt="statistics-logo"
-        style={{ width: "80%" }}
+        style={{ width: "80%", borderRadius: "50%" }}
       />
     </div>
   </div>,
