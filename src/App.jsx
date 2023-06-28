@@ -9,8 +9,8 @@ import Courses from "./Components/Courses/Courses";
 import Skills from "./Components/Skills/Skills";
 import Experience from "./Components/Experience/Experience";
 import Projects from "./Components/Projects/Projects";
-import ContactMe from "./Components/ContactMe";
-import Footer from "./Components/Footer";
+import ContactMe from "./Components/ContactMe/ContactMe";
+import Footer from "./Components/ContactMe/Footer";
 
 function App() {
   const intro = useRef(null);

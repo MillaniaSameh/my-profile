@@ -40,23 +40,27 @@
   }
 
   .skill-container {
-    gap: 0px;
-    padding: 3%;
-    padding-top: 15%;
-  }
-
-  .skill-card {
-    height: 40vh;
-    width: 40vw;
-    border-radius: 0px;
-  }
-
-  .skill-card ul {
-    padding-left: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 5%;
   }
 
   .skill-name {
     display: none;
+  }
+
+  .skill-card {
+    height: 37vh;
+    width: 40vw;
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+
+  .card-3 {
+    margin-top: -40px;
+    width: 60vw;
+    height: 29vh;
   }
 
   .skill-item {
@@ -78,13 +82,39 @@
   }
 
   .skill-card {
-    height: 28vh;
+    height: 30vh;
     padding-top: 2%;
     padding-left: 2%;
   }
 
   .card-3 {
     margin-top: -100px;
+    height: 23vh;
+  }
+}
+
+@media screen and (height: 740px) and (width: 360px) {
+  .skill-head {
+    font-size: 2rem;
+  }
+
+  .skill-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 5%;
+  }
+
+  .skill-card {
+    height: 33vh;
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+
+  .card-3 {
+    margin-top: -80px;
+    width: 60vw;
+    height: 26vh;
   }
 }
 
@@ -143,7 +173,7 @@
   }
 
   .card-3 {
-    width: 65vw;
+    width: 67vw;
     height: 25vh;
     margin-top: -70px;
   }

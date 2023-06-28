@@ -125,7 +125,7 @@ img {
   }
 
   img {
-    transform: translateY(10%);
+    transform: translateY(5%);
   }
 
   .my-img {
@@ -184,5 +184,26 @@ img {
 
   .intro-description {
     font-size: 18px;
+  }
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+  .intro-description {
+    font-size: 15px;
+  }
+
+  .hello {
+    font-size: 1.5rem;
+  }
+
+  .intro-name {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .fresh-grad {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
   }
 }

@@ -56,24 +56,26 @@ const carouselItems = [
       <p className="project-description">Main components implemented:</p>
       <ul>
         <li>
-          <p className="experience-item">Lexical analyzer using Lex.</p>
+          <p className="project-description-item">
+            Lexical analyzer using Lex.
+          </p>
         </li>
         <li>
-          <p className="experience-item">
+          <p className="project-description-item">
             Action rules to produce the output quadruples.
           </p>
         </li>
         <li>
-          <p className="experience-item">Parser using YACC.</p>
+          <p className="project-description-item">Parser using YACC.</p>
         </li>
         <li>
-          <p className="experience-item">Symbol table.</p>
+          <p className="project-description-item">Symbol table.</p>
         </li>
         <li>
-          <p className="experience-item">Syntax error handler.</p>
+          <p className="project-description-item">Syntax error handler.</p>
         </li>
         <li>
-          <p className="experience-item">Simple semantic analyzer.</p>
+          <p className="project-description-item">Simple semantic analyzer.</p>
         </li>
       </ul>
     </div>
@@ -139,19 +141,19 @@ const carouselItems = [
       </p>
       <ul>
         <li>
-          <p className="experience-item">
+          <p className="project-description-item">
             Pre-processing: the musical sheet would be restored, split into
             lines, stripped from staff lines, making it ready for the next
             steps.
           </p>
         </li>
         <li>
-          <p className="experience-item">
+          <p className="project-description-item">
             Next: notes detection and identification.
           </p>
         </li>
         <li>
-          <p className="experience-item">
+          <p className="project-description-item">
             Final Step: the result is converted into audio format the user can
             play.
           </p>
@@ -179,20 +181,22 @@ const carouselItems = [
       </p>
       <ul>
         <li>
-          <p className="experience-item">Preprocessing Module.</p>
+          <p className="project-description-item">Preprocessing Module.</p>
         </li>
         <li>
-          <p className="experience-item">
+          <p className="project-description-item">
             Feature Extraction/Selection Module.
           </p>
         </li>
         <li>
-          <p className="experience-item">
+          <p className="project-description-item">
             Model Selection and Training Module.
           </p>
         </li>
         <li>
-          <p className="experience-item">Performance Analysis Module.</p>
+          <p className="project-description-item">
+            Performance Analysis Module.
+          </p>
         </li>
       </ul>
     </div>
@@ -256,23 +260,23 @@ const carouselItems = [
       </p>
       <ul>
         <li>
-          <p className="experience-item">
+          <p className="project-description-item">
             Doctors: They can view and edit patients' profiles.
           </p>
         </li>
         <li>
-          <p className="experience-item">
+          <p className="project-description-item">
             Patients: They can only view their account.
           </p>
         </li>
         <li>
-          <p className="experience-item">
+          <p className="project-description-item">
             Pharmacies: Such users can only view the prescriptions part in
             others accounts.
           </p>
         </li>
         <li>
-          <p className="experience-item">
+          <p className="project-description-item">
             Investigation labs: They are authorized only to upload the lab
             investigation report results to patients' accounts.
           </p>

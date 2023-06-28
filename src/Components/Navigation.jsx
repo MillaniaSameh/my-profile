@@ -101,39 +101,6 @@ function Navigation(props) {
               MENU
             </Typography> */}
             {/* <Box sx={{ display: "flex" }}> */}
-            {/* <Box sx={{ display: { xs: "flex", md: "none" } }}>
-              {props.min_pages.map((page) => (
-                <Button
-                  key={page.name}
-                  onClick={() => scrollTo(page.ref)}
-                  sx={{ my: 2, color: "white", display: "block" }}
-                  style={{ fontSize: "1rem", margin: "auto" }}
-                >
-                  {page.name}
-                </Button>
-              ))}
-              <Button
-                key={"icon"}
-                onClick={() =>
-                  window.open(
-                    "http://www.linkedin.com/in/millania-sameh-773129216"
-                  )
-                }
-                sx={{
-                  my: 2,
-                  color: "white",
-                  display: "block",
-                }}
-                style={{
-                  fontSize: "1.5rem",
-                  margin: "auto",
-                  paddingTop: "2px",
-                  paddingLeft: "5px",
-                }}
-              >
-                <LinkedInIcon />
-              </Button>
-            </Box> */}
 
             <Box sx={{ display: { xs: "none", md: "flex" } }}>
               {props.pages.map((page) => (
