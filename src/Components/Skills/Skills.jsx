@@ -5,13 +5,13 @@ function Skills(props) {
     <div ref={props.refname} className="section">
       <div>
         <h1 className="skill-head">
-          <span className="my-name">Skills Set</span> I have acquired through my
+          <span className="my-name">Skill Set</span> I have acquired through my
           education
         </h1>
       </div>
       <div className="skill-container">
         <div className="skill-card">
-          <h1 className="skill-name">Web Developement Skills</h1>
+          <h1 className="skill-name">Web Development Skills</h1>
           <ul style={{ listStyleType: "circle" }}>
             <li className="skill-item">HTML, CSS</li>
             <li className="skill-item">React JS</li>
